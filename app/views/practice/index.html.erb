@@ -1,0 +1,22 @@
+
+
+
+	<% if @name.blank? == false %>
+		Hello <%= @name %>
+	<% end %>
+
+	<h1>Choose a Color</h1>
+
+	<p>
+		<%= link_to "Red", about_path(color: "red"), style: "color:seashell", class: "btn btn-danger" %>
+	</p>
+
+	<p>
+		<%= link_to "Blue", about_path(color: "blue"), style: "color:seashell", class: "btn btn-primary"  %>
+	</p>
+
+	<p>
+		<%= link_to "Green", about_path(color: "green"), style: "color:seashell", class: "btn btn-success" %>
+	</p>
+
+

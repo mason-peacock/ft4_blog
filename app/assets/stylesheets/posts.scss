@@ -1,0 +1,36 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
+.wrapper {
+  margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+  margin-top: 1%;
+  margin-bottom: 1%;
+  
+
+  max-width: 80%; /* 2 */
+
+  padding-right: 1%; /* 3 */
+  padding-left:  1%; /* 3 */
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: outset 3px #888888;
+  box-shadow: 1px 1px 9px darkblue;
+  background-color: #888888;
+  font-family: comic sans ms;
+  text-align: center;
+
+}
+
+.avatar {
+  margin-top:6px;
+  margin-bottom:6px;
+  width:33px;
+  height:38px;
+  border-radius:10px;
+}
+

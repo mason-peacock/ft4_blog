@@ -1,0 +1,11 @@
+
+<div class="wrapper" style="text-align: center;">
+
+	You pressed <%= @color %>
+
+	<%= form_tag index_path do %>
+		<%= text_field_tag :name, nil, placeholder: "What's your name?" %>
+		<%= submit_tag :submit, style:"color:#d9534f" %>
+	<% end %>
+
+</div>
